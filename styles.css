@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica, verdana, sans-serif;
+}
+
+section {
+    padding: 10px 0;
+}
+
+p, li, figcaption {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu, .hero {
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
+.container {
+    margin: 0 auto;
+    width: min(90%, 70.5rem);
+}
+
+#menu-img {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.tab-menu {
+    list-style: none;
+}
+
+.tabs {
+    border: 1px solid #fff;
+    font-size: 18px;
+}
+
+.tabs a {
+    transition: all 0.3s ease 0s;
+}
+
+.tabs a:hover {
+    color: #3882F6;
+    cursor: pointer;
+}
+
+#header-title, .image-info {
+    text-align: center;
+}
+
+img.rnd-crnrs {
+    border: 3px solid #3882F6;
+    border-radius: 35px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quoter {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 600;
+}
+
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.action-button > button {
+    border: 2px solid #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
