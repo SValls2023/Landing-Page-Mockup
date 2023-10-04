@@ -9,10 +9,6 @@ section {
     padding: 10px 0;
 }
 
-p, li, figcaption {
-    font-size: 18px;
-}
-
 h1 {
     font-size: 48px;
     font-weight: 800;
@@ -22,10 +18,22 @@ h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 24px;
+    margin-bottom: 5px;
+}
+
+p, li, figcaption {
+    font-size: 18px;
+}
+
+img {
+    display: block;
+    max-height: auto;
+    max-width: 100%;
 }
 
 .signup {
@@ -48,18 +56,27 @@ h3 {
     width: min(90%, 70.5rem);
 }
 
+.menu > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #menu-img {
-    border: 1px solid #fff;
+    margin: 5px;
     cursor: pointer;
 }
 
 .tab-menu {
+    margin: 5px;
     list-style: none;
 }
 
 .tabs {
-    border: 1px solid #fff;
     font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 0;
 }
 
 .tabs a {
@@ -71,6 +88,42 @@ h3 {
     cursor: pointer;
 }
 
+.hero > .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.hero-text {
+    width: 400px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.hero-text > #welcome-title , #welcome-info, .signup {
+    padding: 5px;
+    margin: auto;
+}
+
+.hero-text > .signup {
+    margin-left: 10px;
+    margin-block: 10px;
+    padding: 10px 30px
+}
+
+.info-img {
+    width: 600px;
+    padding: 20px;
+    margin-block: 5px;
+    justify-content: space-evenly;
+}
+
+.info-img > #header-img {
+    text-align: center;
+    
+}
+
 #header-title, .image-info {
     text-align: center;
 }
@@ -78,6 +131,7 @@ h3 {
 img.rnd-crnrs {
     border: 3px solid #3882F6;
     border-radius: 35px;
+    margin: 0 auto;
 }
 
 .quotes {
